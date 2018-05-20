@@ -1,0 +1,23 @@
+{
+  "name": "polyneue.github.io",
+  "version": "1.0.0",
+  "description": "Ed Mendoza's development portfolio",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Polyneue/polyneue.github.io.git"
+  },
+  "author": "Ed Mendoza <polyneue@gmail.com> (http://www.edmendoza.com)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Polyneue/polyneue.github.io/issues"
+  },
+  "homepage": "https://github.com/Polyneue/polyneue.github.io#readme",
+  "dependencies": {
+    "hubble.js": "0.0.9"
+  }
+}
