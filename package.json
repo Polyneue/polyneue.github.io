@@ -17,7 +17,7 @@
     "url": "https://github.com/Polyneue/polyneue.github.io/issues"
   },
   "homepage": "https://github.com/Polyneue/polyneue.github.io#readme",
-  "dependencies": {
-    "hubble.js": "0.0.9"
+  "devDependencies": {
+    "hubble.js": "0.0.10"
   }
 }
