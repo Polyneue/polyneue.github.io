@@ -4,11 +4,14 @@ const { token } = require('./auth.json');
 const hubble = new Hubble({
   username: 'Polyneue',
   token,
-  output:`${__dirname}/index.html`,
+  output: './index.html',
   theme: {
     title: 'Engineer',
     description: 'Ed Mendoza is a Software Engineer that specializes in JavaScript development. He works for Red Ventures in Charlotte, North Carolina where he works on Application Development and SaaS platforms.',
     type: 'dark',
+    meta: {
+      ga: 'UA-51070650-4'
+    },
     pattern: {
       name: 'topography',
       size: '360px'
